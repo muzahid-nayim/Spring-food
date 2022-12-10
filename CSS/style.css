@@ -219,7 +219,7 @@ footer{
 
 .footer-nav-container{
     flex-direction: column;
-    line-height: 25px;
+    line-height: 10px;
 }
 
 .footer-nav-container a{
