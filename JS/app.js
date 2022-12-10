@@ -23,16 +23,16 @@ const up  = document.getElementById('up');
 let counter = true;
 bar.onclick = ()=>{
     if (counter == true) {
-    shutter.style.transform = 'translate(-50%, -50%)';
+    shutter.style.transform = 'translate(-50%, -43%)';
         counter = false;
     }
     else{
-        shutter.style.transform = 'translate(-50%, -160%)';
+        shutter.style.transform = 'translate(-50%, -180%)';
         counter = true;
     }
 }
 
 up.onclick = ()=>{
-     shutter.style.transform = 'translate(-50%, -160%)'
+     shutter.style.transform = 'translate(-50%, -180%)'
     counter = true;
     }
